@@ -1,4 +1,12 @@
+import { ModeToggle } from '@/components/theme/theme-toggle'
+import { Button } from '@/components/ui/button'
+
 export default function Home() {
-    console.log('here');
-    return <>Hello</>;
+  return (
+    <>
+      Hello
+      <Button> Hey</Button>
+      <ModeToggle />
+    </>
+  )
 }
